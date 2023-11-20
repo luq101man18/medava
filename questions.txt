@@ -1,3 +1,15 @@
-here the questions:
-hello world?
-is java a pure OOP?
+Java and OOP questions: 
+
+1-	Why does the main function in Java have to be static?
+
+2-	What's the difference between instance initializer and constructor, and in what situations it’s better to use one over the other? 
+
+3-	What is the difference between abstract class and interface? Why didn’t we use an abstract class instead of an interface to solve the last problem in the assignment?
+
+4-	Why should we use the “this” keyword in certain situations in Java? I am referring to its necessity In building a certain function. In addition, is it considered a good      software engineering practice?
+
+5-	What are the advantages of using an Enum class?
+
+6-	Since reflection is considered relatively slow, what good scenarios were reflections considered to be a good solution? 
+
+7-	What is the purpose of the “@Override” annotation? And from a software engineering point of view, is there any downside to using annotations?
