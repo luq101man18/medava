@@ -1,6 +1,6 @@
 package edu.uc.cs3003.medava;
 
-// this represent the source
+
 
 public class Pharmacy {
     public Pharmacy(String pharmacyName) {
