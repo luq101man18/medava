@@ -1,6 +1,6 @@
 package edu.uc.cs3003.medava;
 
-// this will represent the simulation of sending and recieving 
+// this will run the simulation of sending and recieving 
 // via a transporter ( while the transporter works as a meduim )
 
 public class HospitalRunner {
