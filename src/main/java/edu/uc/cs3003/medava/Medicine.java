@@ -22,7 +22,7 @@ public abstract class Medicine implements Shippable {
     }
 
 
-    // this function to determine the acceptable range of temperatures for medicines 
+    
     public boolean isTemperatureRangeAcceptable(Double lowTemperature, Double highTemperature) {
         if (this.minimumTemperature() <= lowTemperature && highTemperature <= this.maximumTemperature()){
             return true;
