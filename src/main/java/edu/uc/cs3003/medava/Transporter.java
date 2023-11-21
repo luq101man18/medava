@@ -14,15 +14,13 @@ public class Transporter {
         mHighTemperature = highTemp;
     }
 
-    // teh following function is the meduim used to transport
-    // the medicine
+
     private String mTransporterName;
     public String getTransporterName(){
         return mTransporterName;
     }
 
-    // the following is a list that only support instances of Medicine 
-    // class
+
 
     private List<Shippable> goods;
     
