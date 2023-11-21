@@ -8,12 +8,12 @@ public abstract class Medicine implements Shippable {
     }
     private String mMedicineName;
 
-    // getter: allows certain entities to see a value that has a private access modifier
+
     public String getMedicineName(){
         return mMedicineName;
     }
 
-    // these two methods declarations will be overrides in subclasses, using virtual methods feature on java
+  
     public double minimumTemperature(){
         return 0.0;
     }
@@ -22,7 +22,7 @@ public abstract class Medicine implements Shippable {
     }
 
 
-    // this function to determine the acceptable range of temperatures for medicines 
+
     public boolean isTemperatureRangeAcceptable(Double lowTemperature, Double highTemperature) {
         if (this.minimumTemperature() <= lowTemperature && highTemperature <= this.maximumTemperature()){
             return true;
